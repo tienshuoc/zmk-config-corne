@@ -9,6 +9,22 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        left_parentheses {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <19 20>;
+            layers = <0>;
+        };
+
+        right_parentheses {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <20 21>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
