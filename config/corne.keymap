@@ -42,7 +42,7 @@
             layers = <0>;
         };
 
-        screen_shot {
+        print_screen {
             bindings = <&kp PRINTSCREEN>;
             key-positions = <29 25>;
             layers = <0>;
