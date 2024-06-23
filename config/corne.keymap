@@ -147,6 +147,7 @@
         ampersand {
             bindings = <&kp AMPERSAND>;
             key-positions = <9 21>;
+            layers = <1>;
         };
 
         at_sign {
@@ -190,12 +191,6 @@
             key-positions = <5 17>;
             layers = <1>;
         };
-
-        exclamation {
-            bindings = <&kp EXCLAMATION>;
-            key-positions = <20 32>;
-            layers = <1>;
-        };
     };
 
     behaviors {
@@ -203,6 +198,24 @@
             compatible = "zmk,behavior-mod-morph";
             label = "QMARK_TO_EXCLMARK";
             bindings = <&kp QUESTION>, <&kp EXCLAMATION>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        comma_to_semicolon: comma_to_semicolon {
+            compatible = "zmk,behavior-mod-morph";
+            label = "COMMA_TO_SEMICOLON";
+            bindings = <&kp COMMA>, <&kp SEMICOLON>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        period_to_colon: period_to_colon {
+            compatible = "zmk,behavior-mod-morph";
+            label = "PERIOD_TO_COLON";
+            bindings = <&kp PERIOD>, <&kp COLON>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
