@@ -191,6 +191,30 @@
             key-positions = <7 19>;
             layers = <0>;
         };
+
+        escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <2 1>;
+            layers = <0 1 2 3>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <14 13>;
+            layers = <0>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <8 9>;
+            layers = <0>;
+        };
+
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <7 8>;
+            layers = <0>;
+        };
     };
 
     behaviors {
