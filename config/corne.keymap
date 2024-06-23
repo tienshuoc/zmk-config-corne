@@ -123,13 +123,13 @@
         single_quote {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <6 18>;
-            layers = <0>;
+            layers = <1>;
         };
 
         double_quotes {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <6 18>;
-            layers = <1>;
+            layers = <0>;
         };
 
         underscore {
@@ -166,6 +166,30 @@
             key-positions = <7 19>;
             layers = <0>;
         };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <4 16>;
+            layers = <0>;
+        };
+
+        tick {
+            bindings = <&kp GRAVE>;
+            key-positions = <4 16>;
+            layers = <1>;
+        };
+
+        dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <5 17>;
+            layers = <0>;
+        };
+
+        percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <5 17>;
+            layers = <1>;
+        };
     };
 
     keymap {
@@ -181,7 +205,7 @@
             bindings = <
 &kp TAB       &kp Q  &kp W  &kp F         &kp P  &kp B        &kp J      &kp L  &kp U           &kp Y    &kp SEMICOLON  &kp BSPC
 &kp LCTRL     &kp A  &kp R  &kp S         &kp T  &kp G        &kp M      &kp N  &kp E           &kp I    &kp O          &kp SQT
-&kp LEFT_GUI  &kp Z  &kp X  &kp C         &kp D  &kp V        &kp K      &kp H  &kp COMMA       &kp DOT  &kp FSLH       &kp ESC
+&kp LEFT_GUI  &kp Z  &kp X  &kp C         &kp D  &kp V        &kp K      &kp H  &kp COMMA       &kp DOT  &kp QUESTION   &kp ESC
                             &kp LEFT_ALT  &mo 1  &kp SPACE    &kp SPACE  &mo 2  &kp LEFT_SHIFT
             >;
         };
