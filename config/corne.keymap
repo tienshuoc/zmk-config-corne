@@ -190,6 +190,23 @@
             key-positions = <5 17>;
             layers = <1>;
         };
+
+        exclamation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <20 32>;
+            layers = <1>;
+        };
+    };
+
+    behaviors {
+        qmark_to_exclmark: qmark_to_exclmark {
+            compatible = "zmk,behavior-mod-morph";
+            label = "QMARK_TO_EXCLMARK";
+            bindings = <&kp QUESTION>, <&kp EXCLAMATION>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     keymap {
