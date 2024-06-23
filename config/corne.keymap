@@ -162,12 +162,6 @@
             layers = <0>;
         };
 
-        equal {
-            bindings = <&kp EQUAL>;
-            key-positions = <7 19>;
-            layers = <0>;
-        };
-
         tilde {
             bindings = <&kp TILDE>;
             key-positions = <4 16>;
@@ -190,6 +184,12 @@
             bindings = <&kp PERCENT>;
             key-positions = <5 17>;
             layers = <1>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <7 19>;
+            layers = <0>;
         };
     };
 
