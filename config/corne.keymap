@@ -47,6 +47,29 @@
             key-positions = <29 25>;
             layers = <0>;
         };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <7 19>;
+            layers = <0>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <19 31>;
+            layers = <0>;
+        };
+
+        asterisk {
+            bindings = <&kp ASTERISK>;
+            key-positions = <8 20>;
+        };
+
+        forward_slash {
+            bindings = <&kp SLASH>;
+            key-positions = <20 32>;
+            layers = <0>;
+        };
     };
 
     keymap {
