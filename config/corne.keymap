@@ -119,6 +119,35 @@
             key-positions = <33 21>;
             layers = <1>;
         };
+
+        single_quote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <6 18>;
+            layers = <0>;
+        };
+
+        double_quotes {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <6 18>;
+            layers = <1>;
+        };
+
+        underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <19 31>;
+            layers = <1>;
+        };
+
+        caret {
+            bindings = <&kp CARET>;
+            key-positions = <9 21>;
+            layers = <0>;
+        };
+
+        ampersand {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <9 21>;
+        };
     };
 
     keymap {
