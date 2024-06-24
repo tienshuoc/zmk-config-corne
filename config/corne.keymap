@@ -218,7 +218,14 @@
 
         trigger_func_layer {
             bindings = <&mo 3>;
-            key-positions = <36 41>;
+            key-positions = <40 8>;
+            layers = <0>;
+        };
+
+        media_layer_trigger {
+            bindings = <&mo 4>;
+            key-positions = <3 37>;
+            layers = <0>;
         };
     };
 
@@ -317,6 +324,15 @@
 &kp F7          &kp F8        &kp F9        &kp F10       &kp F11       &kp F12         &trans  &trans  &trans  &trans  &trans  &trans
 &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &trans  &trans
                                             &trans        &trans        &trans          &trans  &trans  &trans
+            >;
+        };
+
+        media_layer {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
