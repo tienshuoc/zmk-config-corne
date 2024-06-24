@@ -215,6 +215,11 @@
             key-positions = <7 8>;
             layers = <0>;
         };
+
+        trigger_func_layer {
+            bindings = <&mo 3>;
+            key-positions = <36 41>;
+        };
     };
 
     behaviors {
