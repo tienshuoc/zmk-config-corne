@@ -272,7 +272,14 @@
             compatible = "zmk,behavior-tap-dance";
             label = "NUM_DANCE";
             #binding-cells = <0>;
-            bindings = <&none>, <&sl 2>;
+            bindings = <&none>, <&tog 2>;
+        };
+
+        capslock_dance: capslock_dance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "CAPSLOCK_DANCE";
+            #binding-cells = <0>;
+            bindings = <&none>, <&kp CAPSLOCK>;
         };
     };
 
