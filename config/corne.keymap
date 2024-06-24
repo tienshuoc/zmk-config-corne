@@ -309,10 +309,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB           &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &trans    &trans    &kp BACKSPACE  &kp DELETE  &kp N0      &kp PAGE_UP
-&kp LEFT_CONTROL  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP         &kp RIGHT   &kp RETURN  &kp PAGE_DOWN
-&kp LEFT_GUI      &trans        &trans          &trans        &trans        &trans          &trans    &trans    &trans         &trans      &trans      &kp HOME
-                                                &trans        &trans        &trans          &trans    &trans    &trans
+&trans  &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &trans    &trans    &kp BACKSPACE  &kp DELETE  &kp N0      &kp PAGE_UP
+&trans  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP         &kp RIGHT   &kp RETURN  &kp PAGE_DOWN
+&trans  &trans        &trans          &trans        &trans        &trans          &trans    &trans    &trans         &trans      &trans      &kp HOME
+                                      &trans        &trans        &trans          &trans    &trans    &trans
             >;
         };
 
