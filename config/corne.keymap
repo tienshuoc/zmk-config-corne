@@ -303,10 +303,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB       &kp Q  &kp W  &kp F         &kp P  &kp B              &kp J      &kp L  &kp U                &kp Y             &kp SEMICOLON       &kp BSPC
-&kp LCTRL     &kp A  &kp R  &kp S         &kp T  &kp G              &kp M      &kp N  &kp E                &kp I             &kp O               &kp SQT
-&kp LEFT_GUI  &kp Z  &kp X  &kp C         &kp D  &kp V              &kp K      &kp H  &comma_to_semicolon  &period_to_colon  &qmark_to_exclmark  &kp LEFT_META
-                            &kp LEFT_ALT  &mo 1  &capslock_dance    &kp SPACE  &mo 2  &kp RIGHT_ALT
+&kp TAB       &kp Q  &kp W  &kp F         &kp P  &kp B                        &kp J      &kp L  &kp U                &kp Y             &kp SEMICOLON       &kp BSPC
+&kp LCTRL     &kp A  &kp R  &kp S         &kp T  &kp G                        &kp M      &kp N  &kp E                &kp I             &kp O               &kp SQT
+&kp LEFT_GUI  &kp Z  &kp X  &kp C         &kp D  &kp V                        &kp K      &kp H  &comma_to_semicolon  &period_to_colon  &qmark_to_exclmark  &kp LEFT_META
+                            &kp LEFT_ALT  &mo 1  &smart_shift LEFT_SHIFT 0    &kp SPACE  &mo 2  &kp RIGHT_ALT
             >;
         };
 
