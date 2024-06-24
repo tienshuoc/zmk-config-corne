@@ -194,13 +194,13 @@
 
         escape {
             bindings = <&kp ESCAPE>;
-            key-positions = <2 1>;
+            key-positions = <2 3>;
             layers = <0 1 2 3>;
         };
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <14 13>;
+            key-positions = <14 15>;
             layers = <0>;
         };
 
