@@ -279,7 +279,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "CAPSLOCK_DANCE";
             #binding-cells = <0>;
-            bindings = <&none>, <&kp CAPSLOCK>;
+            bindings = <&none>, <&caps_word>;
         };
 
         smart_shift: smart_shift {
