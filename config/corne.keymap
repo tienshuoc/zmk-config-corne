@@ -273,6 +273,8 @@
             label = "NUM_DANCE";
             #binding-cells = <0>;
             bindings = <&none>, <&tog 2>;
+
+            tapping-term-ms = <200>;
         };
 
         capslock_dance: capslock_dance {
