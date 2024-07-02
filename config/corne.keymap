@@ -120,14 +120,8 @@
             layers = <1>;
         };
 
-        single_quote {
-            bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <6 18>;
-            layers = <1>;
-        };
-
-        double_quotes {
-            bindings = <&kp DOUBLE_QUOTES>;
+        equal {
+            bindings = <&kp EQUAL>;
             key-positions = <6 18>;
             layers = <0>;
         };
