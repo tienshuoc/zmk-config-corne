@@ -120,12 +120,6 @@
             layers = <1>;
         };
 
-        equal {
-            bindings = <&kp EQUAL>;
-            key-positions = <6 18>;
-            layers = <0>;
-        };
-
         underscore {
             bindings = <&kp UNDERSCORE>;
             key-positions = <19 31>;
