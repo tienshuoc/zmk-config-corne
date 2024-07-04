@@ -355,7 +355,7 @@
             >;
         };
 
-        smart_num_layer {
+        num_layer {
             bindings = <
 &kp DOLLAR   &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK     &trans  &trans  &trans  &trans  &trans  &trans
 &kp PERCENT  &kp PLUS   &kp N4        &kp N5        &kp N6        &kp PERIOD       &trans  &trans  &trans  &trans  &trans  &trans
