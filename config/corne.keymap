@@ -274,15 +274,6 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        underscore_minus: underscore_minus {
-            compatible = "zmk,behavior-mod-morph";
-            label = "UNDERSCORE_MINUS";
-            bindings = <&kp UNDERSCORE>, <&kp MINUS>;
-
-            #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
         tilde_tick: tilde_tick {
             compatible = "zmk,behavior-mod-morph";
             label = "TILDE_TICK";
