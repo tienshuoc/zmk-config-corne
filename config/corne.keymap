@@ -320,6 +320,24 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        left_bracket_left_brace: left_bracket_left_brace {
+            compatible = "zmk,behavior-mod-morph";
+            label = "LEFT_BRACKET_LEFT_BRACE";
+            bindings = <&kp LEFT_BRACKET>, <&kp LEFT_BRACE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        right_bracket_right_brace: right_bracket_right_brace {
+            compatible = "zmk,behavior-mod-morph";
+            label = "RIGHT_BRACKET_RIGHT_BRACE";
+            bindings = <&kp RIGHT_BRACKET>, <&kp RIGHT_BRACE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     keymap {
