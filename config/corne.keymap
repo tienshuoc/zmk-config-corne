@@ -314,6 +314,24 @@
             #binding-cells = <0>;
             continue-list = <BACKSPACE DELETE DOT COMMA>;
         };
+
+        left_parenthesis_less_than: left_parenthesis_less_than {
+            compatible = "zmk,behavior-mod-morph";
+            label = "LEFT_PARENTHESIS_LESS_THAN";
+            bindings = <&kp LEFT_PARENTHESIS>, <&kp LESS_THAN>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        right_parenthesis_greater_than: right_parenthesis_greater_than {
+            compatible = "zmk,behavior-mod-morph";
+            label = "RIGHT_PARENTHESIS_GREATER_THAN";
+            bindings = <&kp RIGHT_PARENTHESIS>, <&kp GREATER_THAN>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     keymap {
