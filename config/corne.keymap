@@ -90,16 +90,10 @@
             layers = <0>;
         };
 
-        tilde {
-            bindings = <&kp TILDE>;
+        tilde_tick {
+            bindings = <&tilde_tick>;
             key-positions = <4 16>;
             layers = <0>;
-        };
-
-        tick {
-            bindings = <&kp GRAVE>;
-            key-positions = <4 16>;
-            layers = <1>;
         };
 
         dollar {
