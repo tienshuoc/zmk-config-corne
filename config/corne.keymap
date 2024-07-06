@@ -38,20 +38,20 @@
 
         forward_slash {
             bindings = <&kp SLASH>;
-            key-positions = <20 32>;
+            key-positions = <20 19>;
             layers = <0>;
         };
 
         back_slash {
             bindings = <&kp BACKSLASH>;
-            key-positions = <21 33>;
+            key-positions = <21 20>;
             layers = <0>;
         };
 
         pipe {
             bindings = <&kp PIPE>;
-            key-positions = <33 21>;
-            layers = <1>;
+            key-positions = <32 20>;
+            layers = <0>;
         };
 
         at_sign {
