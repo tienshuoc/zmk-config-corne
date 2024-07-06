@@ -54,18 +54,6 @@
             layers = <1>;
         };
 
-        caret {
-            bindings = <&kp CARET>;
-            key-positions = <9 21>;
-            layers = <0>;
-        };
-
-        ampersand {
-            bindings = <&kp AMPERSAND>;
-            key-positions = <9 21>;
-            layers = <1>;
-        };
-
         at_sign {
             bindings = <&kp AT_SIGN>;
             key-positions = <2 14>;
