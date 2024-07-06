@@ -12,18 +12,6 @@
     combos {
         compatible = "zmk,combos";
 
-        left_parentheses_less_than {
-            bindings = <&left_parenthesis_less_than>;
-            key-positions = <19 20>;
-            layers = <0>;
-        };
-
-        right_parentheses_greater_than {
-            bindings = <&right_parenthesis_greater_than>;
-            key-positions = <20 21>;
-            layers = <0>;
-        };
-
         copy {
             bindings = <&kp K_COPY>;
             key-positions = <26 27>;
