@@ -332,7 +332,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans    &kp K_MENU          &kp BACKSPACE  &kp DELETE  &trans      &kp PAGE_UP
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN            &kp UP         &kp RIGHT   &kp RETURN  &kp PAGE_DOWN
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &kp K_CONTEXT_MENU  &trans         &trans      &kp HOME    &kp END
+&trans  &trans  &trans  &trans  &trans  &trans    &kp HOME  &kp K_CONTEXT_MENU  &trans         &kp END     &trans      &trans
                         &trans  &trans  &trans    &trans    &trans              &trans
             >;
         };
