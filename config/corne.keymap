@@ -137,6 +137,11 @@
             key-positions = <8 20>;
             layers = <0>;
         };
+
+        minus_underscore {
+            bindings = <&kp MINUS>;
+            key-positions = <31 32>;
+        };
     };
 
     behaviors {
