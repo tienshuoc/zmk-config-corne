@@ -131,6 +131,12 @@
             key-positions = <9 21>;
             layers = <0>;
         };
+
+        ampersand_caret {
+            bindings = <&ampersand_caret>;
+            key-positions = <8 20>;
+            layers = <0>;
+        };
     };
 
     behaviors {
