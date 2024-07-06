@@ -96,18 +96,6 @@
             layers = <0>;
         };
 
-        dollar {
-            bindings = <&kp DOLLAR>;
-            key-positions = <5 17>;
-            layers = <0>;
-        };
-
-        percent {
-            bindings = <&kp PERCENT>;
-            key-positions = <5 17>;
-            layers = <1>;
-        };
-
         escape {
             bindings = <&kp ESCAPE>;
             key-positions = <2 3>;
