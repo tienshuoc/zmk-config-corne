@@ -107,6 +107,30 @@
             key-positions = <3 37>;
             layers = <0>;
         };
+
+        left_parenthesis_less_than {
+            bindings = <&left_parenthesis_less_than>;
+            key-positions = <19 31>;
+            layers = <0>;
+        };
+
+        right_parenthesis_greater_than {
+            bindings = <&right_parenthesis_greater_than>;
+            key-positions = <21 33>;
+            layers = <0>;
+        };
+
+        left_bracket_left_brace {
+            bindings = <&left_bracket_left_brace>;
+            key-positions = <7 19>;
+            layers = <0>;
+        };
+
+        right_bracket_right_brace {
+            bindings = <&right_bracket_right_brace>;
+            key-positions = <9 21>;
+            layers = <0>;
+        };
     };
 
     behaviors {
