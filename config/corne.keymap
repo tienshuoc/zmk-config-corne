@@ -299,6 +299,15 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        tilde_tick: tilde_tick {
+            compatible = "zmk,behavior-mod-morph";
+            label = "TILDE_TICK";
+            bindings = <&kp TILDE>, <&kp GRAVE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     keymap {
