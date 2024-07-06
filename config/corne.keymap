@@ -131,11 +131,6 @@
             key-positions = <3 37>;
             layers = <0>;
         };
-
-        equal {
-            bindings = <&kp EQUAL>;
-            key-positions = <6 18>;
-        };
     };
 
     behaviors {
