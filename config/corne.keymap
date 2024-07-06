@@ -273,6 +273,15 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        ampersand_caret: ampersand_caret {
+            compatible = "zmk,behavior-mod-morph";
+            label = "AMPERSAND_CARET";
+            bindings = <&kp AMPERSAND>, <&kp CARET>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     keymap {
