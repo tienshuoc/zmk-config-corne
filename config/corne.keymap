@@ -66,8 +66,8 @@
             layers = <0>;
         };
 
-        tilde_tick {
-            bindings = <&tilde_tick>;
+        grave_tilde {
+            bindings = <&kp GRAVE>;
             key-positions = <4 16>;
             layers = <0>;
         };
