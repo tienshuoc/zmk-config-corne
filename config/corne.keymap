@@ -36,16 +36,16 @@
             layers = <0>;
         };
 
-        forward_slash {
-            bindings = <&kp SLASH>;
+        forwardslash_backslash {
+            bindings = <&forwardslash_backslash>;
             key-positions = <20 19>;
             layers = <0>;
         };
 
-        back_slash {
-            bindings = <&kp BACKSLASH>;
+        enter {
+            bindings = <&kp ENTER>;
             key-positions = <21 20>;
-            layers = <0>;
+            layers = <0 1 2 3 4 5 6>;
         };
 
         pipe {
