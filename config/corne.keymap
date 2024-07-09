@@ -301,6 +301,15 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        forwardslash_backslash: forwardslash_backslash {
+            compatible = "zmk,behavior-mod-morph";
+            label = "FORWARDSLASH_BACKSLASH";
+            bindings = <&kp SLASH>, <&kp BACKSLASH>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     keymap {
