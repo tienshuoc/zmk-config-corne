@@ -38,7 +38,7 @@
 
         forwardslash_backslash {
             bindings = <&forwardslash_backslash>;
-            key-positions = <20 19>;
+            key-positions = <32 33>;
             layers = <0>;
         };
 
