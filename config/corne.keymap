@@ -180,11 +180,11 @@
         smart_num_trigger: smart_num_trigger {
             compatible = "zmk,behavior-hold-tap";
             label = "SMART_NUM_TRIGGER";
-            bindings = <&mo>, <&tog>;
+            bindings = <&mo>, <&num_dance>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            flavor = "hold-preferred";
+            flavor = "balanced";
             quick-tap-ms = <175>;
         };
 
