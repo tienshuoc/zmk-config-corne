@@ -211,6 +211,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
+            flavor = "balanced";
         };
 
         hrm_left: hrm_left {
