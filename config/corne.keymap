@@ -147,7 +147,7 @@
         };
 
         toggle_qwerty {
-            bindings = <&tog 7>;
+            bindings = <&to 7>;
             key-positions = <36 41 1>;
         };
 
@@ -170,8 +170,13 @@
         };
 
         toggle_windows {
-            bindings = <&tog 6>;
+            bindings = <&to 6>;
             key-positions = <36 41 2>;
+        };
+
+        to_default_layer {
+            bindings = <&to 0>;
+            key-positions = <36 41>;
         };
     };
 
