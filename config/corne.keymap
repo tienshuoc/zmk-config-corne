@@ -33,114 +33,115 @@
         print_screen {
             bindings = <&kp PRINTSCREEN>;
             key-positions = <29 25>;
-            layers = <0>;
+            layers = <0 6>;
         };
 
         forwardslash_backslash {
             bindings = <&forwardslash_backslash>;
             key-positions = <32 33>;
-            layers = <0>;
+            layers = <0 6>;
         };
 
         enter {
             bindings = <&kp ENTER>;
             key-positions = <21 20>;
-            layers = <0 1 2 3 4 5 7>;
+            layers = <0 1 2 3 4 5 7 6>;
         };
 
         pipe {
             bindings = <&kp PIPE>;
             key-positions = <32 20>;
-            layers = <0>;
+            layers = <0 6>;
         };
 
         at_sign {
             bindings = <&kp AT_SIGN>;
             key-positions = <2 14>;
-            layers = <0>;
+            layers = <0 6>;
         };
 
         hash {
             bindings = <&kp HASH>;
             key-positions = <3 15>;
-            layers = <0>;
+            layers = <0 6>;
         };
 
         grave_tilde {
             bindings = <&kp GRAVE>;
             key-positions = <4 16>;
-            layers = <0>;
+            layers = <0 6>;
         };
 
         escape {
             bindings = <&kp ESCAPE>;
             key-positions = <2 3>;
-            layers = <0 1 2 3 4 5 7>;
+            layers = <0 1 2 3 4 5 7 6>;
         };
 
         tab {
             bindings = <&kp TAB>;
             key-positions = <14 15>;
-            layers = <0>;
+            layers = <0 6>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <8 9>;
-            layers = <0 2 7>;
+            layers = <0 2 7 6>;
         };
 
         delete {
             bindings = <&kp DELETE>;
             key-positions = <7 8>;
-            layers = <0 2 7>;
+            layers = <0 2 7 6>;
         };
 
         trigger_func_layer {
             bindings = <&mo 3>;
             key-positions = <40 8>;
-            layers = <0>;
+            layers = <0 6>;
         };
 
         media_layer_trigger {
             bindings = <&mo 4>;
             key-positions = <3 37>;
-            layers = <0>;
+            layers = <0 6>;
         };
 
         left_parenthesis_less_than {
             bindings = <&left_parenthesis_less_than>;
             key-positions = <19 31>;
-            layers = <0>;
+            layers = <0 6>;
         };
 
         right_parenthesis_greater_than {
             bindings = <&right_parenthesis_greater_than>;
             key-positions = <21 33>;
-            layers = <0>;
+            layers = <0 6>;
         };
 
         left_bracket_left_brace {
             bindings = <&left_bracket_left_brace>;
             key-positions = <7 19>;
-            layers = <0>;
+            layers = <0 6>;
         };
 
         right_bracket_right_brace {
             bindings = <&right_bracket_right_brace>;
             key-positions = <9 21>;
-            layers = <0>;
+            layers = <0 6>;
         };
 
         ampersand_caret {
             bindings = <&ampersand_caret>;
             key-positions = <8 20>;
-            layers = <0>;
+            layers = <0 6>;
         };
 
         underscore {
             bindings = <&kp UNDERSCORE>;
             key-positions = <31 32>;
+            layers = <0 6>;
         };
 
         toggle_qwerty {
