@@ -358,10 +358,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE    &kp Q                 &kp W                 &kp F              &kp P                   &kp B                        &kp J      &kp L                     &kp U                &kp Y                   &kp SEMICOLON           &kp BSPC
-&kp LCTRL     &hrm_left LEFT_GUI A  &hrm_left LEFT_ALT R  &hrm_left LCTRL S  &hrm_left LEFT_SHIFT T  &kp G                        &kp M      &hrm_right RIGHT_SHIFT N  &hrm_right RCTRL E   &hrm_right RIGHT_ALT I  &hrm_right RIGHT_GUI O  &kp SQT
-&kp LEFT_GUI  &kp Z                 &kp X                 &kp C              &kp D                   &kp V                        &kp K      &kp H                     &comma_to_semicolon  &period_to_colon        &qmark_to_exclmark      &kp LEFT_META
-                                                          &mo 5              &mo 1                   &smart_shift LEFT_SHIFT 0    &kp SPACE  &smart_num_trigger 2 2    &kp RIGHT_ALT
+&kp ESCAPE    &kp Q                 &kp W                 &kp F              &kp P                   &kp B        &kp J                      &kp L                     &kp U                &kp Y                   &kp SEMICOLON           &kp BSPC
+&kp LCTRL     &hrm_left LEFT_GUI A  &hrm_left LEFT_ALT R  &hrm_left LCTRL S  &hrm_left LEFT_SHIFT T  &kp G        &kp M                      &hrm_right RIGHT_SHIFT N  &hrm_right RCTRL E   &hrm_right RIGHT_ALT I  &hrm_right RIGHT_GUI O  &kp SQT
+&kp LEFT_GUI  &kp Z                 &kp X                 &kp C              &kp D                   &kp V        &kp K                      &kp H                     &comma_to_semicolon  &period_to_colon        &qmark_to_exclmark      &kp LEFT_META
+                                                          &mo 5              &mo 1                   &kp SPACE    &smart_shift LEFT_SHIFT 0  &smart_num_trigger 2 2    &kp RIGHT_ALT
             >;
         };
 
