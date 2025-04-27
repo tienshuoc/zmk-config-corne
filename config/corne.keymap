@@ -340,10 +340,19 @@
         forwardslash_backslash: forwardslash_backslash {
             compatible = "zmk,behavior-mod-morph";
             label = "FORWARDSLASH_BACKSLASH";
-            bindings = <&kp SLASH>, <&kp BACKSLASH>;
+            bindings = <&kp SLASH>, <&cleared_backslash>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        cleared_backslash: cleared_backslash {
+            compatible = "zmk,behavior-mod-morph";
+            label = "CLEARED_BACKSLASH";
+            bindings = <&kp BACKSLASH>, <&none>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LCTL)>;
         };
     };
 
