@@ -352,7 +352,7 @@
             bindings = <&kp BACKSLASH>, <&none>;
 
             #binding-cells = <0>;
-            mods = <0>; /* No mods! */;
+            mods = <0>; /* No mods! */
         };
     };
 
