@@ -142,7 +142,7 @@
 
         underscore {
             bindings = <&kp UNDERSCORE>;
-            key-positions = <31 32>;
+            key-positions = <31 33>;
             layers = <0 6>;
         };
 
@@ -177,6 +177,11 @@
         to_default_layer {
             bindings = <&to 0>;
             key-positions = <36 41>;
+        };
+
+        backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <31 32>;
         };
     };
 
