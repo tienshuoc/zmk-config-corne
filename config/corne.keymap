@@ -40,6 +40,7 @@
             bindings = <&forwardslash_backslash>;
             key-positions = <32 33>;
             layers = <0 6>;
+            timeout-ms = <60>;
         };
 
         enter {
@@ -144,6 +145,7 @@
             bindings = <&kp UNDERSCORE>;
             key-positions = <31 33>;
             layers = <0 6>;
+            timeout-ms = <60>;
         };
 
         toggle_qwerty {
@@ -182,6 +184,7 @@
         backslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <31 32>;
+            timeout-ms = <60>;
         };
     };
 
